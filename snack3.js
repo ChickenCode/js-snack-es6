@@ -8,7 +8,7 @@ alert("Bada bene, l'array ha " + arrIniziale.length + " indici, e si inizia e co
 var a = parseInt(prompt("Incerisci ora il primo numero (il più piccolo dei due)"))
 var b = parseInt(prompt("inserisci ora il secondo numero (il più grande dei due)"))
 
-const arrFiltrato = arrIniziale.filter((element, index) => {
+/*const arrFiltrato = arrIniziale.filter((element, index) => {
     if (index >= a && index <= b) {
         return true
     }
@@ -17,4 +17,17 @@ const arrFiltrato = arrIniziale.filter((element, index) => {
 })
 
 console.log(arrFiltrato)
-alert(`I numeri compresi tra gli indici da te digitati sono ${arrFiltrato}`)
+alert(`I numeri compresi tra gli indici da te digitati sono ${arrFiltrato}`)*/
+
+let arrFiltrato = []
+
+arrIniziale.forEach((element, index) => {
+    if(index > a && b > index) {
+        arrFiltrato.push(element)
+    }
+})
+
+console.log(arrFiltrato)
+
+
+

@@ -1,26 +1,26 @@
 let biciclette = [
 
-    bici1 = {
+    {
         nome: "Bianchi",
         peso: 20
     } ,
 
-    bici2 = {
+    {
         nome: "Rossi",
         peso: 21
     } ,
 
-    bici3 = {
+    {
         nome: "Gialli",
         peso: 12
     } ,
 
-    bici4 = {
+    {
         nome: "Turchesi",
         peso: 16
     } ,
 
-    bici5 = {
+    {
         nome: "Verdi",
         peso: 19
     } 
